@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* --var: color: white; */
+}
+/* flex-directions */
+.fd-col {
+    flex-direction: column !important;
+}
+.fd-row {
+    flex-direction: row !important;
+}
+/* align-items */
+.ai-s {
+    align-items: start !important;
+}
+.ai-c {
+    align-items: center !important;
+}
+.ai-e {
+    align-items: end !important;
+}
+/* justifys */
+.jf-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.jf-sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.jf-se {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.jf-sa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
